@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 '''
 Module written by: John Galbraith
-
+8 Oct 2017
 
 '''
 
