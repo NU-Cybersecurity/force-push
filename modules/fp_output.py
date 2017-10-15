@@ -62,11 +62,24 @@ class EMAIL(object):
         self.server.sendmail(self.mailfrom, COMMASPACE.join(self.tolist), self.message.as_string())
         self.server.quit()
 
+        
+ class OUTPUT(object):
+    def __init__(self):
+        self.bar = 'hello world'
+
+    def kitten(self, cat):
+        print(self.bar)
+        return cat
+
+
 
 if '__main__' in __name__:
     print('Enter your gmail password:\n')
     passwd = getpass.getpass()
     mail = EMAIL(passwd)
     mail.buildmail(report='Test message')
+    
+    meowmix = OUTPUT()
+    print(meowmix.kitten("meow"))
 
 
