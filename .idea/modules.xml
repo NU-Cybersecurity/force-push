@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/force-push.iml" filepath="$PROJECT_DIR$/.idea/force-push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fp_attack/.idea/force-push.iml" filepath="$PROJECT_DIR$/../fp_attack/.idea/force-push.iml" />
     </modules>
   </component>
 </project>
