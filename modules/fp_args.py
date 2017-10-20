@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
-version = 'Vaporware'
+version = '.1'
 
 class PARSE(object):
     def __init__(self):
