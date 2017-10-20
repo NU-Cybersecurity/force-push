@@ -14,8 +14,8 @@ import mimetypes
 import getpass
 
 class EMAIL(object):
-    def __init__(self, passwd):
-        self.username = 'jagalbraith@gmail.com'
+    def __init__(self, username, passwd):
+        self.username = username
         self.passwd = passwd
         self.server = smtplib.SMTP('smtp.gmail.com:587')
 
@@ -74,9 +74,9 @@ class EMAIL(object):
 
 
 if '__main__' in __name__:
-    print('Enter your gmail password:\n')
+    username = raw_input('Gmail Username:')
     passwd = getpass.getpass()
-    mail = EMAIL(passwd)
+    mail = EMAIL(username, passwd)
     mail.buildmail(report='Test message')
     
     meowmix = OUTPUT()
