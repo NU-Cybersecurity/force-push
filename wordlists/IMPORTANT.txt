@@ -1,0 +1,6 @@
+It should be noted that these wordslists come from various other products and
+their licenses may apply to their specific usage. This is also not a terribly 
+exhaustive directory of wordslists, and their intended application ranges from 
+very specific to very general. https://github.com/berzerk0/Probable-Wordlists
+has some more which you may add at your discretion based on your particular
+needs. 
