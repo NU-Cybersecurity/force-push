@@ -8,6 +8,11 @@ class PARSE(object):
         self.parser = argparse.ArgumentParser(prog='FORCEPUSH', description='', add_help=False)
         self.parser.add_argument('-h', '--help', action='help')
         self.parser.add_argument('-v', '--version', action='version', version='%(prog)s {v}'.format(v=version))
+        self.parser.add_argument('-e', '--email', help='Email address to send report to.')
+        self.parser.add_argument('-gu', '--gmailuser', help='Gmail Username')
+        self.parser.add_argument('-gp', '--gmailpasswd', help='Gmail Password')
+
+
 
     def args(self):
         self.args = self.parser.parse_args()
