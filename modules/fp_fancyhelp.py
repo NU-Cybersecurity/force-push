@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
-class COLORS(object):
+class COLOR(object):
+    def __init__(self):
+        pass
     end = '\033[0m'
     bold = '\033[1m'
     underline = '\033[4m'
@@ -39,16 +41,19 @@ class COLORS(object):
     bglcyan = '\033[106m'
     bgwhite = '\033[107m'
 
-class SECTIONS(object):
+class OUTPUT(object):
     def __init__(self):
         pass
+    header = "FP_Output Help"
+    definition = "--Emails reports using GMail for SMTP--"
+    dashe = "-e  : Email address of the recipient"
+    dashgu = "-gu : GMail username for the sender's mailbox"
+    dashgp = "-gp : GMail password for the sender's mailbox"
 
-    def printsections(self):
-        list = []
-        list.append(print('{bg}{fg}Hello World{cl}'.format(bg=COLORS.bgdefault, fg=COLORS.green, cl=COLORS.end)))
-
-        for x in list:
-            print(x)
 
 if '__main__' in __name__:
-    SECTIONS.printsections()
+    print COLOR.bold + COLOR.underline + OUTPUT.header + COLOR.end
+    print OUTPUT.definition
+    print COLOR.red + OUTPUT.dashe
+    print OUTPUT.dashgu
+    print OUTPUT.dashgp + COLOR.end
