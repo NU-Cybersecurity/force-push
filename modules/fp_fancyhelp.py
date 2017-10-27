@@ -3,6 +3,8 @@
 class COLOR(object):
     def __init__(self):
         pass
+
+
     end = '\033[0m'
     bold = '\033[1m'
     underline = '\033[4m'
@@ -44,16 +46,35 @@ class COLOR(object):
 class OUTPUT(object):
     def __init__(self):
         pass
-    header = "FP_Output Help"
-    definition = "--Emails reports using GMail for SMTP--"
-    dashe = "-e  : Email address of the recipient"
-    dashgu = "-gu : GMail username for the sender's mailbox"
-    dashgp = "-gp : GMail password for the sender's mailbox"
+
+    def printfh(self):
+        bar = '\n' + '-' * 50
+        header = "Force-Push Fancy Help"
+        print(COLOR.bold + COLOR.underline + header + COLOR.end)
+        print(bar)
+
+        '''Help Files'''
+        stdhelp = '{c} -h, --help : Standard help file. {e}'.format(c=COLOR.blue, e=COLOR.end)
+        print(stdhelp)
+        fancyhelp = '{c} -fh, --fancyhelp {e}: {c2}Fancy help file. {e}'.format(c=COLOR.green, c2=COLOR.lmagenta, e=COLOR.end)
+        print(fancyhelp)
+        print(bar)
+
+        ''' EMAIL OUTPUT'''
+        definition = "--Emails reports using GMail for SMTP--"
+        print(definition)
+
+        dashe = "-e  : Email address of the recipient"
+        print(COLOR.red + dashe + COLOR.end)
+
+        dashgu = "-gu : GMail username for the sender's mailbox"
+        print(COLOR.red + dashgu + COLOR.end)
+
+        dashgp = "-gp : GMail password for the sender's mailbox"
+        print(COLOR.red + dashgp + COLOR.end)
+
 
 
 if '__main__' in __name__:
-    print COLOR.bold + COLOR.underline + OUTPUT.header + COLOR.end
-    print OUTPUT.definition
-    print COLOR.red + OUTPUT.dashe
-    print OUTPUT.dashgu
-    print OUTPUT.dashgp + COLOR.end
+    test = OUTPUT()
+    test.printfh()
