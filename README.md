@@ -21,6 +21,6 @@ If you have any issues regarding the source code of this framework, as well as a
     Email: To be added later
     GitHub: jagalbraith, pooji625, BHutch1987, MeomixR6, G-Sec, B8P3
 
-#####This tool was designed for educational purposes and what you decide to do with it is beyond our concern and control.  In other words don't be an idiot and don't complain to us if you decide to be!    
+####This tool was designed for educational purposes and what you decide to do with it is beyond our concern and control.  In other words don't be an idiot and don't complain to us if you decide to be!  WE DON'T CARE ABOUT WHAT HAPPENS TO YOU!    
     
 
