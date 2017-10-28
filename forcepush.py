@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 '''
 Forcepush 0.1
-Written by: John Galbraith, name, name, name, name
+Written by: John Galbraith, Jodee Lowe, Branson Hutchens, Sean Poojaroen, Bradley Petrini, Geoff Collier
 
 
 
@@ -10,7 +10,7 @@ Written by: John Galbraith, name, name, name, name
 import modules.fp_args
 import traceback #Needed for troubleshooting
 
-
+#In the main we give a brief rundown of what the tol is designed for and what modules we plan on writting to make this a suite and not just a tool
 def main():
     '''
     This is the main file for forcepush where it all comes

@@ -2,7 +2,7 @@
 
 import argparse
 version = '.1'
-
+#This is the module we used to designate the arguments for the various modules so the user will have to get comfortable running from CLI since this is designed as a tool for beginners
 class PARSE(object):
     def __init__(self):
         self.parser = argparse.ArgumentParser(prog='FORCEPUSH', description='', add_help=False)

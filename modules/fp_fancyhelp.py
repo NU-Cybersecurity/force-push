@@ -4,7 +4,7 @@ class COLOR(object):
     def __init__(self):
         pass
 
-
+    #This designates the various colors chosen to make the help module more fun to read and easier to differentiate between the various fields
     end = '\033[0m'
     bold = '\033[1m'
     underline = '\033[4m'
@@ -54,6 +54,7 @@ class OUTPUT(object):
         print(bar)
 
         '''Help Files'''
+        #This is the argument that will be designated to pull up the help file
         stdhelp = '{c} -h, --help : Standard help file. {e}'.format(c=COLOR.blue, e=COLOR.end)
         print(stdhelp)
         fancyhelp = '{c} -fh, --fancyhelp {e}: {c2}Fancy help file. {e}'.format(c=COLOR.green, c2=COLOR.lmagenta, e=COLOR.end)
@@ -61,6 +62,7 @@ class OUTPUT(object):
         print(bar)
 
         ''' EMAIL OUTPUT'''
+        #This shows the various ways to output the results.  If no email is designated stdout will default
         definition = "--Emails reports using GMail for SMTP--"
         print(definition)
 
