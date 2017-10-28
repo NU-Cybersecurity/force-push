@@ -4,7 +4,7 @@
 import nmap
 import getpass
 
-#Defining our clas and function
+#Defining our class and function
 class OSDETECT(object):
     def __init__(self):
         pass
