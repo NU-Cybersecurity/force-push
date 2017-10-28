@@ -18,8 +18,7 @@ Will complete in due time, hold your horses.
 If you have any issues regarding the source code of this framework, as well as any errors you have encountered, please contact the team at 
 
     Email: To be added later
-    GitHub: jagalbraith, pooji625, BHutch1987, MeomixR6, G-Sec
-    
+    GitHub: jagalbraith, pooji625, BHutch1987, MeomixR6, G-Sec, B8P3
 
 #####This tool was designed for educational purposes and what you decide to do with it is beyond our concern and control.  In other words don't be an idiot and don't complain to us if you decide to be!    
     
